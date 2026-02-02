@@ -9,6 +9,8 @@
 ## Structure TypeScript (Types)
 export type TaskStatus = 'todo' | 'doing' | 'done';
 
+```typescript
+
 export interface Task {
   id: string;                    
   title: string;                 
@@ -28,6 +30,8 @@ export interface Column {
 export interface BoardState {
   columns: Column[];             
 }
+
+```
 
 ## Arborescence cible (/src)
 ```text
